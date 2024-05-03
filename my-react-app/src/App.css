@@ -39,8 +39,9 @@
 }
 .card--image{
   Width:13rem;
-  Height:15rem;
+  Height:14rem;
   border-radius: 5px;
+  object-fit:fill;
 }
 .card-title{
   font-size:25px;
