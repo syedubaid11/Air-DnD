@@ -6,7 +6,7 @@ export default function Nav(){
         <>
             <div className='nav--container'>
                 <div className='nav'>
-                    <p>my travel journal.</p>
+                    <p><img className="earth" src="./images/earth.png"/> my travel journal.</p>
                 </div>
             </div>
         </>

@@ -11,7 +11,7 @@ function App() {
   const map=data.map((item)=>{
     return(
       <Card 
-      key={1}
+      key={item.key}
       mapurl={item.googleMapsUrl}
       title={item.title}
       location= {item.location}
