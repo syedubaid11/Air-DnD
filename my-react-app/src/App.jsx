@@ -18,6 +18,7 @@ function App() {
       startDate={item.startDate}
       endDate={item.endDate}
       image={item.image}
+      description={item.description}
       
       />
     )
