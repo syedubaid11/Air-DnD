@@ -2,6 +2,7 @@
   margin:0px;
   box-sizing: border-box;
   padding:0px;
+  font-family: "Inter", sans-serif;
 }
 .nav--container{
   display: flex;
@@ -20,8 +21,27 @@
 
   
 }
-
+.card{
+  display: flex;
+  justify-content: center;
+  margin-top:3rem;
+  
+}
+.card-stats{
+  margin-left:1rem;
+}
 .card--image{
-  height:20rem;
-  width:20rem;  
+  Width:13rem;
+  Height:15rem;
+  border-radius: 5px;
+}
+.card-title{
+  font-size:25px;
+  font-weight: bolder;
+}
+
+.card-date{
+  font-size:12px;
+  margin-top:10px;
+  font-weight: bold;
 }
